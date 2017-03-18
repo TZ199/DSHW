@@ -1,7 +1,7 @@
 //Tianxin Zhou
 //Start at 2:28 PM Sat, March 11
 //Data Structure HW6
-
+#include "Words.h"
 #include <fstream>
 #include <string>
 #include <cstdlib>
@@ -14,6 +14,7 @@
 #include <ctype.h>
 #include <iomanip>
 #include <algorithm>
+#include <assert.h>
 
 //Helper function for determin wether a string is digit.
 //From http://stackoverflow.com/questions/4654636/how-to-determine-if-a-string-is-a-number-with-c.
@@ -21,6 +22,12 @@ bool is_number(const std::string& s)
 {
         return( strspn( s.c_str(), "-.0123456789" ) == s.size() );
 }
+
+void fill_words()
+{
+  return;
+}
+
 
 int main(int argc, char* argv[])
 {
@@ -52,19 +59,20 @@ int main(int argc, char* argv[])
                         words_out.push_back(temp2);
                 }
                 else
+                //Read the row and column numbers.
                 if(is_number(temp1) && is_number(temp2))
                 {
                         row = atoi(temp1.c_str());
                         col = atoi(temp2.c_str());
-                        std::cout << "row,col:" << row << col << std::endl;
                 }
                 else
                         std::cerr << "The input file contains invalid strings." << std::endl;
         }
 
-        //Debug here
+        //Debug mode.
         if(option == "DEBUG")
         {
+                std::cout << "row,col:" << row << col << std::endl;
                 for(int i = 0; i < words_in.size(); i++)
                 {
                         std::cout << "wordin vector # " << i << " = " << words_in[i] << std::endl;
@@ -73,23 +81,26 @@ int main(int argc, char* argv[])
                 {
                         std::cout << "wordout vector # " << i << " = " << words_out[i] << std::endl;
                 }
+
+                Words test(3,3);
+                std::cout << "test" << std::endl;
+                assert(test.insert("AB", 2,2,3));
+                std::cout << "test2" << std::endl;
+                test.print_out();
+
         }
 
-        else if(option == " one_solution")
+        else if(option == "one_solution")
         {
-
+          std::cout << "Not complete" << std::endl;
         }
 
-        else if(option == " all_solutions")
+        else if(option == "all_solutions")
         {
 
         }
         else
                 std::cerr << " Ivalid option argument" << std::endl;
-
-
-
-
 
         return 0;
 }

@@ -1,7 +1,17 @@
 //Tianxin Zhou
 //Header file for Words class
-#include <vector>
+#include <fstream>
 #include <string>
+#include <cstdlib>
+#include <iostream>
+#include <vector>
+#include <sstream>
+#include <iterator>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <iomanip>
+#include <algorithm>
 
 class Words{
 private:
@@ -11,4 +21,27 @@ private:
 public:
   Words();
   Words(int arow, int acol);
+  //Modifer.
+  bool insert(std::string word, int arow, int acol, int direct);
+
+  //Printer.
+  void print_out()
+  {
+    std::cout<< "PRINTING" << "Words row = "<<row <<" col = "<< col <<std::endl;
+
+    for(int i=0; i<row;i++)
+    {
+      for(int j= 0; j < col; j++)
+      {
+        std::cout<<data[i][j] << " " ;
+        if(j == col -1)
+        {
+          std::cout << std::endl;
+        }
+      }
+    }
+  }
+
+
+
 };
