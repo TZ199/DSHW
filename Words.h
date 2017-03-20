@@ -41,7 +41,30 @@ public:
       }
     }
   }
+  void print_out(std::ofstream &out_str)
+  {
+    out_str<< "Board:"<<std::endl;
+    for(int i=0; i<row;i++)
+    {
+      out_str<<"  ";
+      for(int j= 0; j < col; j++)
+      {
+        out_str<<data[i][j];
+        if(j == col -1)
+        {
+          out_str <<std::endl;
+        }
+      }
+    }
+  }
+  bool search(const std::string &word, int arow, int acol, int direct);
 
+  int get_col(){
+    return col;
+  }
+  int get_row(){
+    return row;
+  }
 
 
 };

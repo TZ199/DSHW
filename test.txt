@@ -1,0 +1,769 @@
+192 solution(s) 
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  nun_t
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  tnun_
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  _nunt
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  t_nun
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  tenet
+  alula
+  t_n__
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  t_n__
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  tenet
+  alula
+  __n_t
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  __n_t
+  alula
+  tenet
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  nun_t
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  tnun_
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  _nunt
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
+Board:
+  tenet
+  alula
+  t_nun
