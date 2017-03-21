@@ -23,7 +23,7 @@
 //for the compare length http://stackoverflow.com/questions/18831470/sorting-a-string-vector-based-on-the-string-size
 struct compare {
     bool operator()(const std::string& first, const std::string& second) {
-        return first.size() > second.size();
+        return first.size() < second.size();
     }
 };
 
@@ -163,6 +163,7 @@ int main(int argc, char* argv[])
           //Sort the input vector by the length of words.
           compare c;
           std::sort(words_in.begin(), words_in.end(), c);
+          std::sort(words_out.begin(), words_out.end(), c);
           for(int i = 0; i< words_in.size(); i++)
           {
             std::cout << words_in[i] << " " << std::endl;
