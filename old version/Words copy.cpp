@@ -384,36 +384,3 @@ bool Words::search(const std::string &word, int arow, int acol, int direct)
     return false;
   }
 }
-
-
-
-
-bool Words::check_blank(int &outrow, int &outcol) const
-{
-  for(int i = 0; i<row;i++)
-  {
-    for(int j = 0; j<col;j++)
-    {
-      if(data[i][j] == '_')
-      {
-        outrow = i;
-        outcol = j;
-        return true;
-      }
-    }
-  }
-  return false;
-}
-
-bool Words::operator==(const Words& rhs) const
-{
-    for(int i = 0; i < row; i++)
-    {
-      for(int j = 0; j<col; j++)
-      {
-        if(data[i][j] != rhs.getdata()[i][j])
-          return false;
-      }
-    }
-    return true;
-}

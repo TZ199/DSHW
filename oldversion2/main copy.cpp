@@ -18,14 +18,6 @@
 #include <list>
 
 
-
-
-struct compare {
-    bool operator()(const std::string& first, const std::string& second) {
-        return first.size() < second.size();
-    }
-};
-
 //Helper function for determin wether a string is digit.
 //From http://stackoverflow.com/questions/4654636/how-to-determine-if-a-string-is-a-number-with-c.
 bool is_number(const std::string& s)
@@ -56,16 +48,62 @@ void fill_words(int arow, int acol, std::vector<std::string> ain, std::vector<Wo
 
       for(int j= 0; j< acol; j++)
       {
-        for(int k = 1; k<9; k++)
+        std::cout << "Proving alive" << std::endl;
+        Words temp1,temp2, temp3,temp4,temp5,temp6,temp7,temp8;
+        temp1 = temp,temp2 = temp,temp3 = temp,temp4 = temp,temp5 = temp,temp6 = temp,
+        temp7 = temp,temp8 = temp;
+        std::vector<std::string> ain_temp;
+        if(temp1.insert(ain.back(),i,j,1))
         {
-          Words temp1 = temp;
-          if(temp1.insert(ain.back(),i,j,k))
-          {
-            std::vector<std::string> ain_temp;
-            ain_temp = ain;
-            ain_temp.pop_back();
-            fill_words(arow,acol, ain_temp,afits,temp1);
-          }
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp1);
+        }
+        if(temp2.insert(ain.back(),i,j,2))
+        {
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp2);
+        }
+        if(temp3.insert(ain.back(),i,j,3))
+        {
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp3);
+        }
+        if(temp4.insert(ain.back(),i,j,4))
+        {
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp4);
+        }
+        if(temp5.insert(ain.back(),i,j,5))
+        {
+
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp5);
+        }
+        if(temp6.insert(ain.back(),i,j,6))
+        {
+
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp6);
+        }
+        if(temp7.insert(ain.back(),i,j,7))
+        {
+
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp7);
+        }
+        if(temp8.insert(ain.back(),i,j,8))
+        {
+
+          ain_temp = ain;
+          ain_temp.pop_back();
+          fill_words(arow,acol, ain_temp,afits,temp8);
         }
 
       }
@@ -207,10 +245,6 @@ int main(int argc, char* argv[])
           // {
           //         std::cout << "wordin vector # " << i << " = " << words_in[i] << std::endl;
           // }
-
-          compare c;
-          std::sort(words_in.begin(), words_in.end(), c);
-
           fill_words(row,col, words_in,fit_words,Words(row,col));
           // Words(row,col).print_out();
 

@@ -1,0 +1,10 @@
+7 5
++ avocado
++ magnet
++ cedar
++ robin
++ chaos
++ buffalo
++ trade
++ lad
++ fun

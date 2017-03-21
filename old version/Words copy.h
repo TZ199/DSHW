@@ -65,21 +65,6 @@ public:
   int get_row(){
     return row;
   }
-  char get(int arow, int acol)
-  {
-    return data[arow][acol];
-  }
-  void add(int arow, int acol, char input)
-  {
-    data[arow][acol] = input;
-  }
 
-  bool check_blank(int &outrow, int &outcol) const;
-
-  const std::vector<std::vector<char> >& getdata() const
-  {
-    return data;
-  }
-  bool operator==(const Words& rhs) const;
 
 };
