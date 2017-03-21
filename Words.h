@@ -22,7 +22,7 @@ public:
   Words();
   Words(int arow, int acol);
   //Modifer.
-  bool insert(std::string word, int arow, int acol, int direct);
+  bool insert(std::string& word, int arow, int acol, int direct);
 
   //Printer.
   void print_out()

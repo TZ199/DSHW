@@ -1,0 +1,14 @@
+7 5
++ hid
++ zip
++ quit
++ jog
++ wax
++ fur
++ lap
++ key
++ save
++ cub
++ mine
+
+

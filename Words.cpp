@@ -34,7 +34,7 @@ Words::Words(int arow, int acol)
 }
 
 //Direction 1:up 2:down 3:left 4:right 5:up_left 6:up_right 7:down_left 8:down_right
-bool Words::insert(std::string word, int arow, int acol, int direct)
+bool Words::insert(std::string& word, int arow, int acol, int direct)
 {
   //1:up
   if(direct == 1)

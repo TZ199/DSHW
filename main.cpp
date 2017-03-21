@@ -1,5 +1,6 @@
 //Tianxin Zhou
 //Start at 2:28 PM Sat, March 11
+//Final edited 3:57PM Tue, March 21
 //Data Structure HW6
 #include "Words.h"
 #include <fstream>
@@ -19,7 +20,7 @@
 
 
 
-
+//for the compare length http://stackoverflow.com/questions/18831470/sorting-a-string-vector-based-on-the-string-size
 struct compare {
     bool operator()(const std::string& first, const std::string& second) {
         return first.size() < second.size();
@@ -190,29 +191,20 @@ int main(int argc, char* argv[])
 
                 Words test(2,3);
                 std::cout << "test" << std::endl;
-                assert(test.insert("ONE", 0,2,3));
                 std::cout << "test2" << std::endl;
                 test.print_out();
 
         }
 
-        // else if(option == "one_solution")
-        // {
-        //   std::cout << "Not complete" << std::endl;
-        // }
 
         else if(option == "all_solutions"||option == "one_solution")
         {
-          // for(int i = 0; i < words_in.size(); i++)
-          // {
-          //         std::cout << "wordin vector # " << i << " = " << words_in[i] << std::endl;
-          // }
 
           compare c;
           std::sort(words_in.begin(), words_in.end(), c);
 
           fill_words(row,col, words_in,fit_words,Words(row,col));
-          // Words(row,col).print_out();
+
 
           std::vector<bool> help (fit_words.size(), false);
           for(int i = 0; i< fit_words.size(); i++)
@@ -230,7 +222,6 @@ int main(int argc, char* argv[])
               preanswer.push_back(fit_words[i]);
             }
           }
-          // std::cout<<"preanswer:" << preanswer.size() << std::endl;
 
           std::list<Words> answer(preanswer.begin(), preanswer.end());
           //Pre check with the words_out
@@ -246,11 +237,6 @@ int main(int argc, char* argv[])
               }
             }
           }
-
-          // for(int i = 0; i<alphabet.size(); i++)
-          // {
-          //   std::cout<<alphabet[i] << " " << std::endl;
-          // }
 
           // //Filling the blank with a-z
           for (std::list<Words>::iterator i = answer.begin(); i != answer.end();)
@@ -272,8 +258,6 @@ int main(int argc, char* argv[])
               i++;
           }
 
-
-
           for (std::list<Words>::iterator i = answer.begin(); i != answer.end();)
           {
             int k = 0;
@@ -284,13 +268,8 @@ int main(int argc, char* argv[])
             else
               i++;
           }
-
+          //From http://stackoverflow.com/questions/12850181/stdunique-and-removing-duplicates-from-a-container-of-objects
           answer.erase(unique(answer.begin(), answer.end()), answer.end());
-          // std::cout<<"Testing" << "size" << answer.size()<<std::endl;
-          // for(std::list<Words>::iterator i = answer.begin(); i != answer.end();i++)
-          // {
-          //   i->print_out();
-          // }
           if(option == "one_solution")
           {
             answer.begin()->print_out(out_str);
