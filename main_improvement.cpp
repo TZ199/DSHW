@@ -164,10 +164,6 @@ int main(int argc, char* argv[])
           compare c;
           std::sort(words_in.begin(), words_in.end(), c);
           std::sort(words_out.begin(), words_out.end(), c);
-          for(int i = 0; i< words_in.size(); i++)
-          {
-            std::cout << words_in[i] << " " << std::endl;
-          }
           Words begin(row,col);
           fill_words(row,col, words_in,fit_words,begin);
 
